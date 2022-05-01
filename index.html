@@ -10,13 +10,15 @@
 <body>
     <div class="hero">
         <nav>
-            <img src="images/logo.png" class="logo"/>
+            <img src="images/logo.png" class="logo" style="margin-left: -45px;">
+
+            <!---Menu-->
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">HIRE ME</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#work">PORTFOLIO</a></li>
+                <li><a href="services">SERVICES</a></li>
+                <li><a href="contact">CONTACT</a></li>
             </ul>
         </nav>
         <div class="detel">
@@ -24,22 +26,153 @@
             <p>This is my official portfolio to show all
                 <br> Details and work about web development
             </p>  
-        <a href="#">DOWNLOAD CV</a>      
+        <a href="#">Hire Me</a>      
         </div>
         <div class="images">
             <img src="images/shape.png" class="shape"/>
-            <img src="images/girl.jpg" alt="girl"/>
+            <img src="images/girl 2.png" alt="girl"/>
+        
         </div>
-        <div class="social media">
+        <div class="social media" style="margin-left: 130px;">
             <img src="images/instagram.png" alt="Instagram" class="insta"/>
             <img src="images/linkedin.png" alt="Linkedin" class="LinkedIn"/>
             <img src="images/facebook.png" alt="Facebook" class="facebook"/>
             <img src="images/youtube.png" alt="Youtube" class="youtube"/>
             <img src="images/email.png" alt="Email" class="email"/>
 
-            
         </div>
     </div>
-    
+    <!-- About Section-->
+    <section id="about">
+        <!-- Heading-->
+        <div class="heading">
+            <h2>About</h2>
+            <p>My Introduction</p>
+        </div>
+        <!-- About Content-->
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/girl 2.png" alt="">
+            </div>
+            <div class="about-text">
+                <h1>I'm Loocie </h1>
+                <p>I'm passionate about using technology to solve personal, <br>
+                corporate, and world-wide problems. I'm here to use my <br>
+                Software Engineering Skills coupled with Graphic Design, <br>
+                Photography and Video Editing background to provide solutions
+            <br> to your problems</p>
+            <!-- Button -->
+            <a href="#">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Services-->
+    <section id="services">
+        <!--heading-->
+        <div class="heading">
+            <h2>Services</h2>
+            <p>Services We Offer</p>
+        </div>
+        <div class="services-content">
+            <!-- Box -->
+            <div class="services-content">
+
+           <div class="box">
+                <!--Downlaod HTML logo or next line of code-->
+                <img src="images/html.png" alt="">
+                <h1>HTML</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos pariatur ipsum nisi eos aperiam eius vel nulla rem vero eum vitae, alias illum doloremque maiores possimus cupiditate esse rerum. Voluptates.</p>
+            </div>   
+
+            <!-- Box -->
+            <div class="box">
+                <!--Downlaod HTML logo or next line of code-->
+                <img src="images/css.png" alt="">
+                <h1>CSS</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos pariatur ipsum nisi eos aperiam eius vel nulla rem vero eum vitae, alias illum doloremque maiores possimus cupiditate esse rerum. Voluptates.</p>
+            </div>    
+
+            <!-- Box -->
+            <div class="box">
+                <!--Downlaod HTML logo or next line of code-->
+                <img src="images/js.png" alt="">
+                <h1>JavaScript</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos pariatur ipsum nisi eos aperiam eius vel nulla rem vero eum vitae, alias illum doloremque maiores possimus cupiditate esse rerum. Voluptates.</p>
+            </div>
+
+            <!-- Box -->
+            <div class="box">
+                <!--Downlaod HTML logo or next line of code-->
+                <img src="images/ux.png" alt="">
+                <h1>UI/UX Design</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos pariatur ipsum nisi eos aperiam eius vel nulla rem vero eum vitae, alias illum doloremque maiores possimus cupiditate esse rerum. Voluptates.</p>
+            </div>
+        
+            <!-- Box -->
+            <div class="box">
+                <!--Downlaod HTML logo or next line of code-->
+                <img src="images/wordpress.png" alt="">
+                <h1>Wordpress</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos pariatur ipsum nisi eos aperiam eius vel nulla rem vero eum vitae, alias illum doloremque maiores possimus cupiditate esse rerum. Voluptates.</p>
+            </div>
+
+            <!-- Box -->
+            <div class="box">
+                <!--Downlaod HTML logo or next line of code-->
+                <img src="images/prototype.png" alt="">
+                <h1>Prototype</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos pariatur ipsum nisi eos aperiam eius vel nulla rem vero eum vitae, alias illum doloremque maiores possimus cupiditate esse rerum. Voluptates.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <div class="heading">
+            <h2>Work</h2>
+            <p>Work With Us</p>
+        </div>
+        <div class="work-content">
+            <div class="work-text">
+                <h1>We Believe To Deliver Best <br> Quality Work</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque debitis consequatur quas consectetur quo error, facere labore reiciendis natus omnis at voluptatem quibusdam voluptatibus necessitatibus, repellendus exercitationem fugit aliquam soluta.</p>
+                <a href="#Contact">Contact</a>
+            </div>
+            <div class="work-img">
+                <!--Put picture of Black woman working behing laptop in img below-->
+                <img src="images/work.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <p>Leave a message we will try to reply in 24 hours.</p>
+        </div>
+        <div class="contact-content">
+            <div class="app">
+                <h1>Contact With Us <br> By Our Apps</h1>
+                <a href="#"><i class='bx bxl-play-store' ></i></a>
+                <a href="#"><i class='bx bxl-apple' ></i></a>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <inpput type="text" placeholder="Name">
+                        <input type="email" placeholder="Your E-mail">
+                        <textarea name=""  id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                        <input type="button" value="Send" class="contact-button">
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright-->
+    <div class="copyrigt">
+        <p>&#169; Loocie Quayson All Right Reserved</p>
+    </div>
+
 </body>
 </html>
